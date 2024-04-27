@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>UdensiMoney | Internet Banking System</title>
+    <!--load all html content first then fetch js then trigger domcontentloaded //its a good approach to make page faster -->
+    <script defer src="./js/script.js"></script>
+
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <img src="img/logo.png" alt="Bankist logo" class="nav__logo" id="logo" designer="Iriele Odinaka Moses"
+                data-version-number="3.0" />
+            <ul class="nav__links">
+                <li class="nav__item">
+                    <a class="nav__link" href="#section--1">Features</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#section--2">Operations</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link">Login</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#section--3">Testimonials</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link nav__link--btn btn--show-modal" href="#">Open account</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="header__title">
+            <h1>
+                Secure
+                <!-- Green highlight effect -->
+                <span class="highlight">Intuitive</span>
+                Fast<br />
+                <span class="highlight">Reliable</span>
+            </h1>
+            <h4>A simpler banking experience for a simpler life.</h4>
+            <button class="btn--text btn--scroll-to">Learn more &DownArrow;</button>
+            <img src="img/hero.png" class="header__img" alt="Minimalist bank items" />
+        </div>
+    </header>
+
+    <section class="section " id="section--1">
+        <div class="section__title">
+            <h2 class="section__description">Features</h2>
+            <h3 class="section__header">
+                Everything you need in a modern bank and more.
+            </h3>
+        </div>
+
+        <div class="features">
+            <img src="img/digital-lazy.jpg" data-src="img/digital.jpg" alt="Computer" class="features__img lazy-img" />
+            <div class="features__feature">
+                <div class="features__icon">
+                    <svg>
+                        <use xlink:href="img/icons.svg#icon-monitor"></use>
+                    </svg>
+                </div>
+                <h5 class="features__header">100% digital bank</h5>
+                <p>
+                    “UdensiMoney offers 100% digital banking—secure, swift, and accessible anywhere.
+                    Experience the future of finance with our innovative platform,
+                    designed for your convenience and peace of mind.”
+                </p>
+            </div>
+
+            <div class="features__feature">
+                <div class="features__icon">
+                    <svg>
+                        <use xlink:href="img/icons.svg#icon-trending-up"></use>
+                    </svg>
+                </div>
+                <h5 class="features__header">Watch your money grow</h5>
+                <p>
+                    “Discover effortless savings with UdensiMoney. Watch your
+                    money grow in real-time, enjoy secure investments, and achieve
+                    financial goals with our user-friendly digital banking platform.”
+                </p>
+            </div>
+            <img src="img/grow-lazy.jpg" data-src="img/grow.jpg" alt="Plant" class="features__img lazy-img" />
+
+            <img src="img/card-lazy.jpg" data-src="img/card.jpg" alt="Credit card" class="features__img lazy-img" />
+            <div class="features__feature">
+                <div class="features__icon">
+                    <svg>
+                        <use xlink:href="img/icons.svg#icon-credit-card"></use>
+                    </svg>
+                </div>
+                <h5 class="features__header">Free debit card included</h5>
+                <p>
+                    “Join UdensiMoney and get a free debit card. Simplify your
+                    spending, enjoy zero fees, and access your funds globally
+                    with our all-inclusive digital banking solution.”
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="section--2">
+        <div class="section__title">
+            <h2 class="section__description">Operations</h2>
+            <h3 class="section__header">
+                Everything as simple as possible.
+            </h3>
+        </div>
+
+        <div class="operations">
+            <div class="operations__tab-container">
+                <button class="btn operations__tab operations__tab--1 operations__tab--active" data-tab="1">
+                    <span>01</span>Instant Transfers
+                </button>
+                <button class="btn operations__tab operations__tab--2" data-tab="2">
+                    <span>02</span>Instant Loans
+                </button>
+                <button class="btn operations__tab operations__tab--3" data-tab="3">
+                    <span>03</span>Instant Closing
+                </button>
+            </div>
+            <div class="operations__content operations__content--1 operations__content--active">
+                <div class="operations__icon operations__icon--1">
+                    <svg>
+                        <use xlink:href="img/icons.svg#icon-upload"></use>
+                    </svg>
+                </div>
+                <h5 class="operations__header">
+                    Tranfser money to anyone, instantly! No fees.
+                </h5>
+                <p>
+                    “UdensiMoney revolutionizes banking: Transfer money instantly to anyone,
+                    anywhere. No fees, no hassle. Just fast, free transactions at your
+                    fingertips with our digital banking service.”
+                </p>
+            </div>
+
+            <div class="operations__content operations__content--2">
+                <div class="operations__icon operations__icon--2">
+                    <svg>
+                        <use xlink:href="img/icons.svg#icon-home"></use>
+                    </svg>
+                </div>
+                <h5 class="operations__header">
+                    Buy a home or make your dreams come true, with instant loans.
+                </h5>
+                <p>
+                    “Empower your aspirations with UdensiMoney. Buy a home or fulfill
+                    your dreams through our instant loans. Quick, easy, and flexible
+                    financing to turn your dreams into reality.”
+                </p>
+            </div>
+            <div class="operations__content operations__content--3">
+                <div class="operations__icon operations__icon--3">
+                    <svg>
+                        <use xlink:href="img/icons.svg#icon-user-x"></use>
+                    </svg>
+                </div>
+                <h5 class="operations__header">
+                    No longer need your account? No problem! Close it instantly.
+                </h5>
+                <p>
+                    “Flexibility redefined with UdensiMoney. Close your account
+                    instantly, no questions asked. Enjoy banking freedom with our
+                    commitment to your financial autonomy and satisfaction.”
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="section--3">
+        <div class="section__title section__title--testimonials">
+            <h2 class="section__description">Not sure yet?</h2>
+            <h3 class="section__header">
+                Millions of UdensiMoney clients are already making their lifes simpler.
+            </h3>
+        </div>
+
+        <div class="slider">
+            <div class="slide slide--1">
+                <div class="testimonial">
+                    <h5 class="testimonial__header">Best financial decision ever!</h5>
+                    <blockquote class="testimonial__text">
+                        “Choosing UdensiMoney is the best financial decision ever! Experience
+                        unparalleled convenience, innovative features, and exceptional service
+                        that redefine digital banking for you.”
+                    </blockquote>
+                    <address class="testimonial__author">
+                        <img src="./img/alifoot.png" alt="" class="testimonial__photo" />
+                        <h6 class="testimonial__name">Ada Mummy</h6>
+                        <p class="testimonial__location">Founder & CEO, Ebaigbo</p>
+                    </address>
+                </div>
+            </div>
+
+            <div class="slide slide--2">
+                <div class="testimonial">
+                    <h5 class="testimonial__header">
+                        The last step to becoming a complete minimalist
+                    </h5>
+                    <blockquote class="testimonial__text">
+                        “Embrace simplicity with UdensiMoney—the final step to
+                        minimalist living. Streamline your finances, declutter
+                        your life, and focus on what truly matters with our
+                        digital banking platform.”
+                    </blockquote>
+                    <address class="testimonial__author">
+                        <img src="./img/nsdfoot.png" alt="" class="testimonial__photo" />
+                        <h6 class="testimonial__name">Nkwo Jane</h6>
+                        <p class="testimonial__location">Managing Director, Osietefood</p>
+                    </address>
+                </div>
+            </div>
+
+            <div class="slide slide--3">
+                <div class="testimonial">
+                    <h5 class="testimonial__header">
+                        Finally free from old-school banks
+                    </h5>
+                    <blockquote class="testimonial__text">
+                        “Experience liberation with UdensiMoney—your escape
+                        from old-school banks. Modern digital banking that’s fast,
+                        user-friendly, and tailored for the forward-thinking individual.”
+                    </blockquote>
+                    <address class="testimonial__author">
+                        <img src="img/user-3.jpg" alt="" class="testimonial__photo" />
+                        <h6 class="testimonial__name">Francisco Ikechukwu</h6>
+                        <p class="testimonial__location">Imo, Nigeria</p>
+                    </address>
+                </div>
+            </div>
+
+
+            <!-- <div class="slide"><img src="img/img-1.jpg" alt="Photo 1" /></div>
+        <div class="slide"><img src="img/img-2.jpg" alt="Photo 2" /></div>
+        <div class="slide"><img src="img/img-3.jpg" alt="Photo 3" /></div>
+        <div class="slide"><img src="img/img-4.jpg" alt="Photo 4" /></div> -->
+            <button class="slider__btn slider__btn--left">&larr;</button>
+            <button class="slider__btn slider__btn--right">&rarr;</button>
+            <div class="dots"></div>
+        </div>
+    </section>
+
+    <section class="section section--sign-up">
+        <div class="section__title">
+            <h3 class="section__header">
+                The best day to join UdensiMoney is today. The best time is now!
+            </h3>
+        </div>
+        <button class="btn btn--show-modal">Open your free account today!</button>
+    </section>
+
+    <footer class="footer ">
+        <button class="scroll-to-top-btn">☝</button>
+        <ul class="footer__nav">
+            <li class="footer__item">
+                <a class="footer__link" href="#">About</a>
+            </li>
+            <li class="footer__item">
+                <a class="footer__link" href="#">Pricing</a>
+            </li>
+            <li class="footer__item">
+                <a class="footer__link" href="#">Terms of Use</a>
+            </li>
+            <li class="footer__item">
+                <a class="footer__link" href="#">Privacy Policy</a>
+            </li>
+            <li class="footer__item">
+                <a class="footer__link" href="#">Careers</a>
+            </li>
+            <li class="footer__item">
+                <a class="footer__link" href="#">Blog</a>
+            </li>
+            <li class="footer__item">
+                <a class="footer__link" href="#">Contact Us</a>
+            </li>
+        </ul>
+        <img src="img/icon.png" alt="Logo" class="footer__logo" />
+        <p class="footer__copyright">
+            &copy; Copyright by
+            <a class="footer__link twitter-link" target="_blank" href="https://github.com/MosesOdinaka">Iriel Odinaka
+                Moses</a>. Use for learning.. Don't claim
+            as your own product.
+        </p>
+    </footer>
+
+    <div class="modal hidden">
+        <button class="btn--close-modal">&times;</button>
+        <h2 class="modal__header">
+            Open your bank account <br />
+            in just <span class="highlight">5 minutes</span>
+        </h2>
+        <form class="modal__form">
+            <label>First Name</label>
+            <input type="text" />
+            <label>Last Name</label>
+            <input type="text" />
+            <label>Email Address</label>
+            <input type="email" />
+            <button class="btn">Next step &rarr;</button>
+        </form>
+    </div>
+    <div class="overlay hidden"></div>
+    <!-- its better to put script tag on the last when use multiple script tag and local script tag cooperate with those file  -->
+    <!-- <script src="./js/script.js"></script> -->
+    <!-- <script src="./js/experiment.js"></script> -->
+</body>
+
+</html>
