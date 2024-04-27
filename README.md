@@ -1,4 +1,4 @@
-# UdensiMoney
+# UdensiMoney - Internet Banking System
 
 Welcome to the official repository for UdensiMoney, your premier destination for **100% digital banking**. Our platform is designed to provide a seamless, secure, and intuitive banking experience for users worldwide.
 
